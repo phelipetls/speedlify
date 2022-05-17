@@ -316,4 +316,8 @@ module.exports = function(eleventyConfig) {
 		ui: false,
 		ghostMode: false
 	});
+
+	return {
+		pathPrefix: process.env.CI ? 'speedlify' : '/'
+	}
 };
