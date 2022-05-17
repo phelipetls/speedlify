@@ -318,6 +318,6 @@ module.exports = function(eleventyConfig) {
 	});
 
 	return {
-		pathPrefix: process.env.CI ? 'speedlify' : '/'
+		pathPrefix: process.env.CI ? '/speedlify/' : '/'
 	}
 };
