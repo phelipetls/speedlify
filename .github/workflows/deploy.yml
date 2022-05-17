@@ -1,0 +1,47 @@
+name: Deploy speedlify instance to GitHub Pages
+
+on:
+  push:
+    branches:
+      live
+
+jobs:
+  build:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Cache node modules
+        uses: actions/cache@v3
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }}
+
+      - run: npm ci
+
+      - name: Run lighthouse
+        run: npm run test-pages
+
+      - name: Build for production
+        run: npm run build
+
+      - name: Archive results
+        uses: actions/upload-artifact@v3
+        with:
+          name: results
+          path: _data/results
+          retention-days: 7
+
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: _site
+          jekyll: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
