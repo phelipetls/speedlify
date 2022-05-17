@@ -25,16 +25,21 @@ jobs:
 
       - run: npm ci
 
+      - name: Download Speedlify results
+        uses: actions/download-artifact@v3
+        with:
+          name: speedlify-results
+
       - name: Run lighthouse
         run: npm run test-pages
 
       - name: Build for production
         run: npm run build
 
-      - name: Archive results
+      - name: Archive Speedlify results
         uses: actions/upload-artifact@v3
         with:
-          name: results
+          name: speedlify-results
           path: _data/results
           retention-days: 7
 
