@@ -22,23 +22,18 @@ jobs:
 
       - run: npm ci
 
-      - name: Download Speedlify results
-        uses: actions/download-artifact@v3
+      - name: Cache Speedlify results
+        id: cache-speedlify-results
+        uses: actions/cache@v3
         with:
-          name: speedlify-results
+          path: _data/results
+          key: ${{ runner.os }}-primes
 
       - name: Run lighthouse
         run: npm run test-pages
 
       - name: Build for production
         run: npm run build
-
-      - name: Archive Speedlify results
-        uses: actions/upload-artifact@v3
-        with:
-          name: speedlify-results
-          path: _data/results
-          retention-days: 7
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v2
