@@ -1,9 +1,8 @@
 name: Deploy speedlify instance to GitHub Pages
 
 on:
-  push:
-    branches:
-      live
+  schedule:
+    - cron: '0 0 * * FRI'
 
 jobs:
   build:
