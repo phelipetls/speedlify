@@ -1,0 +1,57 @@
+{
+  "url": "https://phelipetls.github.io/",
+  "requestedUrl": "https://phelipetls.github.io/",
+  "timestamp": 1659059954450,
+  "ranks": {
+    "hundos": 1,
+    "performance": 2,
+    "accessibility": 2,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.96,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 396
+  },
+  "firstContentfulPaint": 1201.6779999999999,
+  "firstMeaningfulPaint": 1276.6779999999999,
+  "speedIndex": 1201.6779999999999,
+  "largestContentfulPaint": 1501.6779999999999,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.1502275187174479,
+  "timeToInteractive": 1276.6779999999999,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 8.817000000000004,
+  "weight": {
+    "summary": "18 requests • 148 KiB",
+    "total": 151551,
+    "image": 58743,
+    "imageCount": 10,
+    "script": 7707,
+    "scriptCount": 2,
+    "document": 35969,
+    "font": 42684,
+    "fontCount": 2,
+    "stylesheet": 6341,
+    "stylesheetCount": 1,
+    "thirdParty": 50692,
+    "thirdPartyCount": 12
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 639,
+    "violations": 0
+  },
+  "previousRanks": {
+    "hundos": 2,
+    "performance": 1,
+    "accessibility": 2,
+    "cumulative": 2
+  }
+}

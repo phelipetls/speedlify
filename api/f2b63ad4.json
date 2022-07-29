@@ -1,0 +1,57 @@
+{
+  "url": "https://phelipetls.github.io/posts/f-strings-syntax-highlighting-in-vim/",
+  "requestedUrl": "https://phelipetls.github.io/posts/f-strings-syntax-highlighting-in-vim/",
+  "timestamp": 1659059932623,
+  "ranks": {
+    "hundos": 3,
+    "performance": 5,
+    "accessibility": 5,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 393
+  },
+  "firstContentfulPaint": 1090.55,
+  "firstMeaningfulPaint": 1248.273,
+  "speedIndex": 1284.1455434486575,
+  "largestContentfulPaint": 2271.3949999999995,
+  "totalBlockingTime": 62,
+  "cumulativeLayoutShift": 0.19356705305311414,
+  "timeToInteractive": 2508.118,
+  "maxPotentialFirstInputDelay": 158,
+  "timeToFirstByte": 46.431999999999995,
+  "weight": {
+    "summary": "22 requests • 261 KiB",
+    "total": 267283,
+    "image": 145328,
+    "imageCount": 2,
+    "script": 27663,
+    "scriptCount": 7,
+    "document": 8084,
+    "font": 66653,
+    "fontCount": 3,
+    "stylesheet": 18399,
+    "stylesheetCount": 5,
+    "thirdParty": 24383,
+    "thirdPartyCount": 8
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 850,
+    "violations": 4
+  },
+  "previousRanks": {
+    "hundos": 4,
+    "performance": 2,
+    "accessibility": 3,
+    "cumulative": 3
+  }
+}

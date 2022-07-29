@@ -1,0 +1,56 @@
+{
+  "url": "https://phelipetls.github.io/pt/posts/gram-schmidt/",
+  "requestedUrl": "https://phelipetls.github.io/pt/posts/gram-schmidt/",
+  "timestamp": 1659059834533,
+  "ranks": {
+    "hundos": 5,
+    "performance": 6,
+    "accessibility": 6,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 1641.4129999999996,
+  "firstMeaningfulPaint": 2101.2829999999994,
+  "speedIndex": 2002.7219666836206,
+  "largestContentfulPaint": 2787.9304999999995,
+  "totalBlockingTime": 132.5,
+  "cumulativeLayoutShift": 0.042674696180555555,
+  "timeToInteractive": 3468.262999999999,
+  "maxPotentialFirstInputDelay": 315,
+  "timeToFirstByte": 136.976,
+  "weight": {
+    "summary": "21 requests • 238 KiB",
+    "total": 243555,
+    "image": 36714,
+    "imageCount": 3,
+    "script": 93754,
+    "scriptCount": 6,
+    "document": 8942,
+    "font": 91886,
+    "fontCount": 5,
+    "stylesheet": 12152,
+    "stylesheetCount": 4,
+    "thirdParty": 153049,
+    "thirdPartyCount": 11
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  },
+  "previousRanks": {
+    "hundos": 6,
+    "performance": 6,
+    "accessibility": 7,
+    "cumulative": 6
+  }
+}

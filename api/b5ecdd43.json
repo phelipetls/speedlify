@@ -1,0 +1,56 @@
+{
+  "url": "https://phelipetls.github.io/posts/implementing-dark-mode-for-static-websites/",
+  "requestedUrl": "https://phelipetls.github.io/posts/implementing-dark-mode-for-static-websites/",
+  "timestamp": 1659060025414,
+  "ranks": {
+    "hundos": 6,
+    "performance": 4,
+    "accessibility": 7,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.93,
+    "accessibility": 1,
+    "bestPractices": 0.92,
+    "seo": 1,
+    "total": 385
+  },
+  "firstContentfulPaint": 1201.866,
+  "firstMeaningfulPaint": 1276.866,
+  "speedIndex": 1201.866,
+  "largestContentfulPaint": 1585.9225,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.23075448777940538,
+  "timeToInteractive": 1276.866,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 9.236999999999998,
+  "weight": {
+    "summary": "12 requests • 74 KiB",
+    "total": 75674,
+    "image": 0,
+    "imageCount": 0,
+    "script": 16305,
+    "scriptCount": 4,
+    "document": 7961,
+    "font": 42859,
+    "fontCount": 2,
+    "stylesheet": 8442,
+    "stylesheetCount": 3,
+    "thirdParty": 3618,
+    "thirdPartyCount": 4
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "error": "{\"name\":\"TimeoutError\"}"
+  },
+  "previousRanks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 4,
+    "cumulative": 4
+  }
+}

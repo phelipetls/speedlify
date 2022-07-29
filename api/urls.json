@@ -1,0 +1,62 @@
+{
+  "https://phelipetls.github.io/posts/": {
+    "requestedUrl": "https://phelipetls.github.io/posts/",
+    "url": "https://phelipetls.github.io/posts/",
+    "hash": "18f8e17a",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  },
+  "https://phelipetls.github.io/resume/": {
+    "requestedUrl": "https://phelipetls.github.io/resume/",
+    "url": "https://phelipetls.github.io/resume/",
+    "hash": "48953cc8",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  },
+  "https://phelipetls.github.io/": {
+    "requestedUrl": "https://phelipetls.github.io/",
+    "url": "https://phelipetls.github.io/",
+    "hash": "529a26be",
+    "categories": []
+  },
+  "https://phelipetls.github.io/pt/posts/gram-schmidt/": {
+    "requestedUrl": "https://phelipetls.github.io/pt/posts/gram-schmidt/",
+    "url": "https://phelipetls.github.io/pt/posts/gram-schmidt/",
+    "hash": "a6b12766",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  },
+  "https://phelipetls.github.io/posts/implementing-dark-mode-for-static-websites/": {
+    "requestedUrl": "https://phelipetls.github.io/posts/implementing-dark-mode-for-static-websites/",
+    "url": "https://phelipetls.github.io/posts/implementing-dark-mode-for-static-websites/",
+    "hash": "b5ecdd43",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  },
+  "https://phelipetls.github.io/posts/f-strings-syntax-highlighting-in-vim/": {
+    "requestedUrl": "https://phelipetls.github.io/posts/f-strings-syntax-highlighting-in-vim/",
+    "url": "https://phelipetls.github.io/posts/f-strings-syntax-highlighting-in-vim/",
+    "hash": "f2b63ad4",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  },
+  "https://phelipetls.github.io/projects/": {
+    "requestedUrl": "https://phelipetls.github.io/projects/",
+    "url": "https://phelipetls.github.io/projects/",
+    "hash": "f90bd497",
+    "categories": [
+      "blog"
+    ],
+    "vertical": "blog"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "url": "https://phelipetls.github.io/resume/",
+  "requestedUrl": "https://phelipetls.github.io/resume/",
+  "timestamp": 1659059907451,
+  "ranks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 4,
+    "cumulative": 7
+  },
+  "lighthouse": {
+    "version": "9.6.1",
+    "performance": 0.72,
+    "accessibility": 1,
+    "bestPractices": 1,
+    "seo": 1,
+    "total": 372
+  },
+  "firstContentfulPaint": 789.314,
+  "firstMeaningfulPaint": 866.814,
+  "speedIndex": 1324.6478024038524,
+  "largestContentfulPaint": 924.314,
+  "totalBlockingTime": 1035.5,
+  "cumulativeLayoutShift": 0.1614160919189453,
+  "timeToInteractive": 4747.814,
+  "maxPotentialFirstInputDelay": 863.9999999999999,
+  "timeToFirstByte": 46.184,
+  "weight": {
+    "summary": "13 requests • 562 KiB",
+    "total": 575699,
+    "image": 0,
+    "imageCount": 0,
+    "script": 499418,
+    "scriptCount": 5,
+    "document": 3954,
+    "font": 42837,
+    "fontCount": 2,
+    "stylesheet": 6344,
+    "stylesheetCount": 1,
+    "thirdParty": 1764,
+    "thirdPartyCount": 3
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 163,
+    "violations": 0
+  },
+  "previousRanks": {
+    "hundos": 7,
+    "performance": 7,
+    "accessibility": 5,
+    "cumulative": 7
+  }
+}
